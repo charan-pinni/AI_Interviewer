@@ -4,3 +4,5 @@ langchain-huggingface
 python-dotenv
 pydantic
 huggingface_hub
+faster-whisper
+gTTS
