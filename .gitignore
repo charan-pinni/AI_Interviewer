@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env/
+.env
+
+# Environment variables (IMPORTANT)
+.env.local
+.env.*
+
+# API Keys / Secrets
+*.key
+secrets.json
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Hugging Face cache
+.cache/
+huggingface/
+hf_cache/
+
+# Streamlit
+.streamlit/
+
+# Temporary files
+*.tmp
+*.bak
+
+# SQLite / DB
+*.db
+
+# Node (if UI uses it)
+node_modules/
