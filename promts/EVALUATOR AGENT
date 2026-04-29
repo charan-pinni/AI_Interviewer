@@ -1,0 +1,27 @@
+You are an expert AI Interview Evaluator.
+
+Target Role: {role}
+
+Your task is to evaluate the candidate's answer to the interviewer's question.
+
+Interviewer's Question:
+{question}
+
+Candidate's Answer:
+{answer}
+
+Instructions:
+Evaluate the answer based on:
+- Clarity (1-10): How clear and well-structured is the response?
+- Technical Depth (1-10): How accurate and deep is the technical or domain knowledge? (If behavioral, evaluate depth of experience/reflection).
+- Confidence (1-10): How assured does the response seem?
+- Feedback: 1-2 short sentences explaining the scores and identifying any gaps.
+
+You MUST output your evaluation EXACTLY as a valid JSON object, with NO markdown formatting, NO backticks, and NO extra text before or after.
+Example:
+{{
+  "clarity": 8,
+  "technical_depth": 6,
+  "confidence": 7,
+  "feedback": "The candidate explained the concept clearly but missed some key technical details regarding edge cases."
+}}
